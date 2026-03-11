@@ -365,4 +365,120 @@ document.addEventListener('DOMContentLoaded', () => {
     }, { passive: true });
   }
 
+  // =====================
+  // 10. BLOG LIBRARY
+  // =====================
+
+  // Blog Search & Filter (hub page)
+  const blogSearch = document.querySelector('.blog-search');
+  const blogFilterTabs = document.querySelectorAll('.blog-filter-tab');
+  const blogPreviewCards = document.querySelectorAll('.blog-preview-card');
+  const blogPartHeaders = document.querySelectorAll('.blog-part-header');
+  const blogNoResults = document.querySelector('.blog-no-results');
+
+  if (blogSearch) {
+    blogSearch.addEventListener('input', () => {
+      const q = blogSearch.value.toLowerCase().trim();
+      filterBlogs(q, getActiveFilter());
+    });
+  }
+
+  blogFilterTabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      blogFilterTabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      const q = blogSearch ? blogSearch.value.toLowerCase().trim() : '';
+      filterBlogs(q, tab.dataset.filter);
+    });
+  });
+
+  function getActiveFilter() {
+    const active = document.querySelector('.blog-filter-tab.active');
+    return active ? active.dataset.filter : 'all';
+  }
+
+  function filterBlogs(query, category) {
+    let visibleCount = 0;
+    const visibleParts = new Set();
+
+    blogPreviewCards.forEach(card => {
+      const matchesCategory = category === 'all' || card.dataset.category === category;
+      const text = (card.dataset.title || '').toLowerCase() + ' ' + (card.dataset.keywords || '').toLowerCase();
+      const matchesQuery = !query || text.includes(query);
+      const show = matchesCategory && matchesQuery;
+
+      card.style.display = show ? '' : 'none';
+      if (show) {
+        visibleCount++;
+        visibleParts.add(card.dataset.part);
+      }
+    });
+
+    // Show/hide part headers
+    blogPartHeaders.forEach(header => {
+      header.style.display = visibleParts.has(header.dataset.part) ? '' : 'none';
+    });
+
+    // Show/hide no results message
+    if (blogNoResults) {
+      blogNoResults.classList.toggle('show', visibleCount === 0);
+    }
+  }
+
+  // Blog Article Accordion (part pages)
+  document.querySelectorAll('.blog-article-header').forEach(header => {
+    header.addEventListener('click', () => {
+      const article = header.closest('.blog-article');
+      const wasOpen = article.classList.contains('open');
+      // Close all open articles
+      document.querySelectorAll('.blog-article.open').forEach(a => a.classList.remove('open'));
+      if (!wasOpen) {
+        article.classList.add('open');
+        // Scroll into view smoothly
+        setTimeout(() => {
+          article.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 100);
+      }
+    });
+  });
+
+  // Deep link to specific blog from URL hash
+  if (window.location.hash) {
+    const target = document.querySelector(window.location.hash);
+    if (target && target.classList.contains('blog-article')) {
+      setTimeout(() => {
+        target.classList.add('open');
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 500);
+    }
+  }
+
+  // Scroll-to-top button
+  const scrollTopBtn = document.querySelector('.scroll-top-btn');
+  if (scrollTopBtn) {
+    window.addEventListener('scroll', () => {
+      scrollTopBtn.classList.toggle('visible', window.scrollY > 600);
+    }, { passive: true });
+    scrollTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  // Blog part nav active state
+  const blogPartLinks = document.querySelectorAll('.blog-part-link');
+  if (blogPartLinks.length) {
+    const blogArticles = document.querySelectorAll('.blog-article');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target.id;
+          blogPartLinks.forEach(link => {
+            link.classList.toggle('active', link.getAttribute('href') === '#' + id);
+          });
+        }
+      });
+    }, { threshold: 0.2, rootMargin: '-100px 0px -60% 0px' });
+    blogArticles.forEach(article => observer.observe(article));
+  }
+
 });
