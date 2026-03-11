@@ -1,0 +1,334 @@
+	<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SUZUKI MOTORCYCLE INDIA</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="SUZUKI MOTORCYCLE INDIA" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.suzukimotorcycle.co.in/images/product/1665476081_Access_125_Glossy_Grey.png" />
+    <meta property="og:image" content="https://cdn.suzukimotorcycle.co.in/public-live/images/website/logo.jpg" />
+    <meta property="og:site_name" content="SUZUKI MOTORCYCLE INDIA" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="SUZUKI MOTORCYCLE INDIA" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="https://cdn.suzukimotorcycle.co.in/public-live/images/website/logo.jpg" />
+    <meta name="twitter:site" content="@suzuki2wheelers" />
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="csrf-token" content="G6YUbt9A7tEOSkIA25rQYilZIBq2kbDvluUFh9fL">
+
+    <!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
+
+    <!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
+
+    <!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
+
+    <!--[if !IE]><!-->
+    <script>
+        if ( /*@cc_on!@*/ false) {
+            document.documentElement.className = 'ie10';
+        }
+    </script><!--<![endif]-->
+
+    <link rel="shortcut icon" href="https://cdn.suzukimotorcycle.co.in/public-live/images/website/favicon.png" type="image/x-icon">
+
+    <link rel="icon" href="https://cdn.suzukimotorcycle.co.in/public-live/images/website/favicon.png" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,300i,400,400i,500,500i,600,600i,700,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Bootstrap -->
+
+    <link rel="stylesheet" href="https://cdn.suzukimotorcycle.co.in/public-live/css-new/website/bootstrap.min.css">
+
+
+    <link rel="stylesheet" href="https://cdn.suzukimotorcycle.co.in/public-live/css-new/website/responsive.css">
+
+    <link rel="stylesheet" href="https://cdn.suzukimotorcycle.co.in/public-live/css-new/website/style_v3.css">
+
+    <link rel="stylesheet" href="https://cdn.suzukimotorcycle.co.in/public-live/css-new/website/custom_v3.css">
+
+    <!--<link rel="stylesheet" href="https://cdn.suzukimotorcycle.co.in/public-live/css-new/website/jcarousel.responsive.css">-->
+    <link rel="stylesheet" href="https://cdn.suzukimotorcycle.co.in/public-live/css-new/website/header-footer-style.css">
+    <!-- jQuery -->
+
+    <script src="https://cdn.suzukimotorcycle.co.in/public-live/js-new/website/jquery.min.js"></script>
+
+    <script src="https://cdn.suzukimotorcycle.co.in/public-live/js-new/website/jquery.js"></script>
+
+    <!-- Bootstrap -->
+
+    <script src="https://cdn.suzukimotorcycle.co.in/public-live/js-new/website/bootstrap.min.js"></script>
+
+    <!-- Validate JS -->
+
+    <!-- <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script> -->
+
+    <script src="https://cdn.suzukimotorcycle.co.in/public-live/js-new/validate/jquery.validate.js"></script>
+
+    <!-- bootbox.min JS -->
+
+    <script src="https://cdn.suzukimotorcycle.co.in/public-live/js-new/bootbox.min.js"></script>
+
+    <!-- Common JS -->
+
+    <script src="https://cdn.suzukimotorcycle.co.in/public-live/js-new/website/common_v4.js"></script>
+
+
+
+    <script type="text/javascript">
+        var SITE_URL = 'https://www.suzukimotorcycle.co.in';
+
+        var IMAGE_ROOT_PATH = 'https://cdn.suzukimotorcycle.co.in/public-live/images/website';
+    </script>
+
+</head>
+
+<body>
+
+    <header id="header" class="inner_header">
+
+        <div class="top_header">
+            <img src="https://www.suzukimotorcycle.co.in/images/website/header_bg.png" alt="" class="zoom">
+        </div>
+        <div class="wrap">
+            <div class="container">
+                <div class="top_section">
+                    <div class="logo_box">
+                        <a href="/"><img src="https://www.suzukimotorcycle.co.in/images/website/logo.jpg" alt="logo" class="ld-hide"></a>
+                        <a href="/"><img src="https://www.suzukimotorcycle.co.in/images/website/m-logo.jpg" alt="logo" class="md-hide"></a>
+                    </div>
+
+                    <div class="left_menu">
+                        <ul>
+                            <li class=" ">
+                                <a style="" class="" href="https://www.suzukimotorcycle.co.in/products">Products</a>
+                            </li>
+                            <li class=" ">
+                                <a style="" class="" href="https://booknow.suzukimotorcycle.co.in/vr-showroom">Book Online</a>
+                            </li>
+                            <li class=" ">
+                                <a style="" class="" href="https://www.suzukimotorcycle.co.in/accessories">Accessories</a>
+                            </li>
+                            <li class=" ">
+                                <a style="" class="" href="https://www.suzukimotorcycle.co.in/support">Contact Us</a>
+                            </li>
+
+                            <li class=" ">
+                                <a style="" class="" href="https://amgixxer.suzukimotorcycle.co.in/">Join #amGIXXER</a>
+                            </li>
+                            <li class="">
+                                <a style="" class="" href="https://www.suzukimotorcycle.co.in/best-value/index">PRE OWNED VEHICLE</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="nav-button">
+                    <button class="hamburger hamburger--boring" type="button">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+
+                </div>
+                <div class="left_section ">
+
+                </div>
+
+                <div class="hero">
+                    <header id="masthead" role="banner">
+
+                        <nav id="site-nav" role="navigation">
+
+                            <div class="nav-logo_box m-logo-box ">
+
+                                <a href="/"><img src="https://www.suzukimotorcycle.co.in/images/website/logo.jpg" alt="logo" class="ld-hide"></a>
+                                <a href="/"><img src="https://www.suzukimotorcycle.co.in/images/website/m-logo.jpg" alt="logo" class="md-hide"></a>
+                            </div>
+
+
+                            <div class="col">
+                                <ul>
+                                    <li><a href="https://www.suzukimotorcycle.co.in/products">Products</a></li>
+                                    <li><a href="https://www.suzukimotorcycle.co.in/racing">Racing</a></li>
+                                    <li><a href="https://www.suzukimotorcycle.co.in/accessories">Accessories</a></li>
+                                    <li><a href="https://www.suzukimotorcycle.co.in/support">Support</a></li>
+                                    <li><a href="https://www.suzukimotorcycle.co.in/career">Career</a></li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <ul>
+                                    <li><a href="https://www.suzukimotorcycle.co.in/about-us">About</a></li>
+                                    <li><a href="https://www.suzukimotorcycle.co.in/media">Media</a></li>
+                                    <li><a href="https://www.suzukimotorcycle.co.in/service">Service</a></li>
+                                    <li><a href="https://www.suzukimotorcycle.co.in/dealer-zone">Dealer Zone</a></li>
+                                    <li><a href="https://www.suzukimotorcycle.co.in/offers">Offers</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col">
+
+                                <ul class="books">
+                                    <li class="icons"><a href="https://booknow.suzukimotorcycle.co.in/all_models" target="_blank">Book online</a></li>
+                                    <li class="icons-2"><a href="https://www.suzukimotorcycle.co.in/find-dealer">Find dealer</a></li>
+                                    <li class="icons-3"><a href="https://www.suzukimotorcycle.co.in/book-test-ride">Book Test Ride</a></li>
+                                    <li class="icons-4"><a href="https://www.suzukimotorcycle.co.in/popular-tags">Popular tags</a></li>
+                                </ul>
+
+                                <div class="social_menus">
+                                    <ul class="facebook_social">
+                                        <li>
+                                            <a href="https://www.facebook.com/Suzuki2Wheelers/" target="_balnk">
+                                                <img src="https://www.suzukimotorcycle.co.in/images/website/facebook_mini.png" alt="Facebook">
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://twitter.com/suzuki2wheelers" target="_balnk">
+                                                <img src="https://www.suzukimotorcycle.co.in/images/website/twitter_mini.png" alt="Twitter">
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://www.instagram.com/suzuki2wheelers/" target="_balnk">
+                                                <img src="https://www.suzukimotorcycle.co.in/images/website/instagram_mini.png" alt="Instagram">
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://www.youtube.com/channel/UCjVm-ARl4jm9k2eFn2kAb5g?view_as=subscriber" target="_balnk">
+                                                <img src="https://www.suzukimotorcycle.co.in/images/website/youtube_mini.png" alt="Youtube">
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://in.linkedin.com/company/suzuki-motorcycle-india-ltd-" target="_balnk">
+                                                <img src="https://www.suzukimotorcycle.co.in/images/website/linkedin_mini.png" alt="Linkedin">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </nav>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <!-- Content Wrapper. Contains page content -->
+<div class="innerContent">
+    <div class="container text-center">
+        <h3 class="text-center">The Requested page was not found</h3>
+        <!--<a href="/" class="btn btn-default">Back To Home</a>-->
+        <div class="text-center">
+            <img src="https://cdn.suzukimotorcycle.co.in/public-live/images/website/404.png" alt="404">
+        </div>
+    </div>
+</div>
+<script>
+jQuery(document).ready(function(){
+    
+});
+</script>
+    <!-- Page Content -->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7 footer_left">
+                    <div class="footer_top">
+                        <ul>
+                            <li class="">
+                                <a href="https://www.suzukimotorcycle.co.in/about-us">
+                                    About </a>
+                            </li>
+                            <li class="">
+                                <a href="https://www.suzukimotorcycle.co.in/media-kit">
+                                    Media Kit </a>
+                            </li>
+                            <li class="">
+                                <a href="https://www.suzukimotorcycle.co.in/service">
+                                    Service </a>
+                            </li>
+                            <li class="">
+                                <a href="https://www.suzukimotorcycle.co.in/dealer-zone">
+                                    Dealer Zone </a>
+                            </li>
+                            <li class="">
+                                <a href="https://www.suzukimotorcycle.co.in/offers">
+                                    Offers </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer_bottom">
+                        <ul>
+                            <li class="">
+                                <a href="https://www.suzukimotorcycle.co.in/sitemap">
+                                    Sitemap </a>
+                            </li>
+                            <li class="">
+                                <a href="https://www.suzukimotorcycle.co.in/cookie-policy">
+                                    Cookie Policy </a>
+                            </li>
+                            <li class="">
+                                <a href="https://www.suzukimotorcycle.co.in/term-of-use">
+                                    Term Of Use </a>
+                            </li>
+                            <li class="">
+                                <a href="https://www.suzukimotorcycle.co.in/privacy-policy">
+                                    Privacy Policy </a>
+                            </li>
+                            <li class="">
+                                <a href="https://www.suzukimotorcycle.co.in/disclaimer">
+                                    Disclaimer </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-5 social_icon">
+                    <ul>
+                        <li>
+                            <a href="http://www.globalsuzuki.com/motorcycle/" target="_balnk"> <img src="https://www.suzukimotorcycle.co.in/images/website/globe.png" alt="global"> </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/Suzuki2Wheelers/" target="_balnk"> <img src="https://www.suzukimotorcycle.co.in/images/website/facebook.png" alt="Facebook"> </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/suzuki2wheelers" target="_balnk"> <img src="https://www.suzukimotorcycle.co.in/images/website/twitter.png" alt="Twitter"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/suzuki2wheelers/" target="_balnk"> <img src="https://www.suzukimotorcycle.co.in/images/website/instagram.png" alt="Instagram"> </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCjVm-ARl4jm9k2eFn2kAb5g?view_as=subscriber" target="_balnk"> <img src="https://www.suzukimotorcycle.co.in/images/website/youtube.png" alt="Youtube"> </a>
+                        </li>
+                        <li>
+                            <a href="https://in.linkedin.com/company/suzuki-motorcycle-india-ltd-" target="_balnk"><img src="https://www.suzukimotorcycle.co.in/images/website/linkedin.png" alt="Linkedin"></a>
+                        </li>
+                    </ul>
+                    <div class="sep1"><a href="https://www.suzukimotorcycle.co.in/sep" target="_blank">
+                            <img src="https://www.suzukimotorcycle.co.in/images/website/sep-01.png" alt="sep"></a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.suzukimotorcycle.co.in/public-live/js-new/website/jquery.jcarousel.min.js"></script>
+    <script src="https://cdn.suzukimotorcycle.co.in/public-live/js-new/website/plugin.js"></script>
+
+</body>
+
+</html>
