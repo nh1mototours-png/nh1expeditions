@@ -31,35 +31,131 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "MotorcycleDealer",
+    "@type": "LocalBusiness",
     "name": "NH-1 Expeditions",
-    "image": "https://nh1moto.com/images/manali-leh.png",
-    "@id": "https://nh1moto.com/",
-    "url": "https://nh1moto.com/",
-    "telephone": "+91 97799 99937",
+    "alternateName": "NH1 Bike Rentals Manali",
+    "description": "Premium motorcycle rentals and guided Himalayan expeditions from Manali. 64-bike fleet including Royal Enfield Himalayan 452, Scram 411, and Yezdi Adventure. Self-ride routes to Leh, Spiti Valley, Ladakh.",
+    "url": "https://nh1bikerentals.com",
+    "telephone": "+919779999937",
+    "email": "nh1mototours@gmail.com",
+    "priceRange": "₹₹",
+    "openingHours": "Mo-Su 09:00-18:00",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Near Old Manali Bus Stand",
+      "streetAddress": "Manali",
       "addressLocality": "Manali",
-      "addressRegion": "HP",
+      "addressRegion": "Himachal Pradesh",
       "postalCode": "175131",
       "addressCountry": "IN"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 32.2396,
-      "longitude": 77.1887
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
-      ],
-      "opens": "08:00",
-      "closes": "20:00"
+      "latitude": 32.2432,
+      "longitude": 77.1892
     },
     "sameAs": [
-      "https://www.instagram.com/nh1bikerentals"
+      "https://www.instagram.com/nh1bikerentals",
+      "https://wa.me/919779999937"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Bike Rental Fleet",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "name": "Royal Enfield Himalayan 452",
+          "price": "2200",
+          "priceCurrency": "INR",
+          "unitText": "per day"
+        },
+        {
+          "@type": "Offer",
+          "name": "Royal Enfield Scram 411",
+          "price": "1800",
+          "priceCurrency": "INR",
+          "unitText": "per day"
+        },
+        {
+          "@type": "Offer",
+          "name": "Yezdi Adventure 334cc",
+          "price": "1800",
+          "priceCurrency": "INR",
+          "unitText": "per day"
+        },
+        {
+          "@type": "Offer",
+          "name": "Access 125 Scooter",
+          "price": "800",
+          "priceCurrency": "INR",
+          "unitText": "per day"
+        }
+      ]
+    }
+  }
+  </script>
+
+  <!-- FAQ Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does it cost to rent a bike in Manali?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "NH-1 Expeditions offers bike rentals in Manali starting from Rs.800/day for a scooter up to Rs.2,200/day for the Royal Enfield Himalayan 452. Security deposit: Rs.2,000-5,000 local rides, Rs.8,000-10,000 for long routes like Manali-Leh."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need a driving licence to rent a bike in Manali?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, a valid 2-wheeler driving licence is mandatory. Indian citizens need an Indian licence. International visitors need an International Driving Permit (IDP). Minimum age: 21 years."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can foreigners rent a bike in Manali?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. NH-1 Expeditions welcomes international riders. Bring your passport, International Driving Permit, and home country licence. We assist with all Ladakh permits for foreign nationals."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which is the best bike for Manali to Leh?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Royal Enfield Himalayan 452 is the top choice for the Manali-Leh highway. Available at NH-1 Expeditions from Rs.2,200/day. The Scram 411 is an excellent lighter alternative at Rs.1,800/day."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "When is the best time for a Manali to Leh bike trip?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "June to September. September is the best month: clear skies, no monsoon rain, minimal crowds, and ideal riding temperatures. The highway closes October-May due to snow."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Breadcrumb Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://nh1bikerentals.com"
+      }
     ]
   }
   </script>
@@ -75,6 +171,7 @@
       <a href="index.html" class="nav-logo">NH-1 <span>Expeditions</span></a>
       <div class="nav-links" id="navLinks">
         <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
         <a href="fleet.html" class="nav-link">Fleet</a>
         <a href="routes.html" class="nav-link">Routes</a>
         <a href="blog.html" class="nav-link">Blog</a>
@@ -280,6 +377,61 @@
       <div style="text-align:center; margin-top:40px;">
         <a href="https://share.google/DXmVTxKCf5Ux16GMd" target="_blank" class="btn btn-primary">⭐ See More Reviews on
           Google →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Homepage FAQ Section -->
+  <section id="homepage-faq">
+    <div class="container" style="max-width:800px;">
+      <div class="section-header">
+        <p class="section-label">Common Questions</p>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">Everything you need to know before renting a bike in Manali.</p>
+      </div>
+      <div class="reveal">
+        <div class="faq-item">
+          <button class="faq-question">How much does it cost to rent a bike in Manali? <span class="faq-icon">+</span></button>
+          <div class="faq-answer">
+            <p>NH-1 Expeditions offers bike rentals in Manali starting from ₹800/day for an Access 125 scooter, up to ₹2,200/day for the Royal Enfield Himalayan 452. The Scram 411 and Yezdi Adventure are both available at ₹1,800/day. Prices are per day with no kilometre limits. A refundable security deposit is required — ₹2,000–5,000 for local rides and ₹8,000–10,000 for long-distance routes like Manali to Leh or Spiti Valley.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Do I need a driving licence to rent a bike in Manali? <span class="faq-icon">+</span></button>
+          <div class="faq-answer">
+            <p>Yes, a valid motorcycle driving licence is mandatory for all rentals. Indian citizens require a standard Indian 2-wheeler licence. International visitors should carry an International Driving Permit (IDP) alongside their home country licence. NH-1 Expeditions checks all documents at the time of pickup. Minimum rider age is 21 years.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Can foreigners rent a bike in Manali? <span class="faq-icon">+</span></button>
+          <div class="faq-answer">
+            <p>Yes. NH-1 Expeditions welcomes international riders from all countries. You will need your passport, a valid International Driving Permit (IDP), and your home country driving licence. We also assist foreign nationals with permit documentation for restricted areas of Ladakh (Protected Area Permits for Nubra Valley, Pangong, Tso Moriri, and Hanle). Contact us before your trip and we will prepare everything in advance.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">What documents do I need to rent a bike in Manali? <span class="faq-icon">+</span></button>
+          <div class="faq-answer">
+            <p>You need: (1) A valid motorcycle driving licence — Indian or International Driving Permit for foreign nationals. (2) A government-issued photo ID — Aadhaar card, passport, or voter ID. (3) A refundable security deposit paid by cash or UPI. We also provide the bike's Registration Certificate (RC), insurance documents, and PUC certificate with every rental — keep these on you throughout your ride.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Which is the best bike for Manali to Leh? <span class="faq-icon">+</span></button>
+          <div class="faq-answer">
+            <p>The Royal Enfield Himalayan 452 is our top recommendation for the Manali to Leh highway. Its 452cc engine, long-travel suspension, and high ground clearance are purpose-built for high-altitude mountain roads. It handles everything from smooth tarmac to river crossings without difficulty. For riders who prefer a lighter, more agile option, the Scram 411 is an excellent alternative. Both are available at NH-1 Expeditions in Manali.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Is it safe to ride a motorcycle from Manali to Leh? <span class="faq-icon">+</span></button>
+          <div class="faq-answer">
+            <p>The Manali to Leh highway is safe for prepared, experienced riders. The key risks are altitude sickness (acclimatise for 24–48 hours in Manali before ascending), sudden weather changes, and road surfaces that can include gravel and river crossings. We recommend: riding in daylight hours only, never riding alone, carrying a first aid kit, downloading offline maps, and keeping our WhatsApp number (+91 97799 99937) saved for emergency support throughout your ride.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">When does NH-1 Expeditions operate? <span class="faq-icon">+</span></button>
+          <div class="faq-answer">
+            <p>NH-1 Expeditions operates seasonally from June to October, aligned with the opening of the Himalayan high passes. The Manali to Leh highway typically opens in mid-June and closes in early October due to snowfall. We advise contacting us in advance to confirm current road status and bike availability. For September and early October riders, slots are limited — book early.</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
